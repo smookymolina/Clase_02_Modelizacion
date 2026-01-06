@@ -63,9 +63,7 @@ def main():
     plt.title("Respuesta forzada (escalón) y métricas: Ts, Mp")
     plt.grid(True)
     plt.legend()
-    # plt.show()
-    plt.savefig('plot_step.png')
-    print("Gráfica guardada en 'plot_step.png'")
+    plt.show()
 
 if __name__ == "__main__":
     main()
