@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(pdflatex:*)",
+      "Bash(ls:*)",
+      "Bash(mpm --update listings)",
+      "Bash(miktex packages update:*)",
+      "Bash(powershell \"Get-Content ''C:\\\\Users\\\\GIRTEC\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-GIRTEC-Documents-GitHub-Clase-02-Modelizacion\\\\tasks\\\\bd4f384.output'' | Select-Object -Last 20\")",
+      "Bash(powershell \"Get-Content ''C:\\\\Users\\\\GIRTEC\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-GIRTEC-Documents-GitHub-Clase-02-Modelizacion\\\\tasks\\\\bd4f384.output'' | Select-Object -Last 50\")",
+      "Bash(powershell \"Get-Content ''C:\\\\Users\\\\GIRTEC\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-GIRTEC-Documents-GitHub-Clase-02-Modelizacion\\\\tasks\\\\bfaa0d3.output'' | Select-Object -Last 30\")",
+      "Bash(powershell \"Get-Content ''C:\\\\Users\\\\GIRTEC\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-GIRTEC-Documents-GitHub-Clase-02-Modelizacion\\\\tasks\\\\b772abb.output'' | Select-Object -Last 15\")",
+      "Bash(start presentacion.pdf)",
+      "Bash(python -m py_compile:*)"
+    ]
+  }
+}
