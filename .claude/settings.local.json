@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nEliminar archivos de compilación de LaTeX y configuración temporal\n\nLimpieza de archivos generados automáticamente:\n- Archivos auxiliares de LaTeX \\(.aux, .log, .nav, .out, .snm, .toc, .vrb\\)\n- Archivos de sincronización \\(.synctex\\)\n- Configuración local de Claude \\(.claude/\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)"
+    ]
+  }
+}
