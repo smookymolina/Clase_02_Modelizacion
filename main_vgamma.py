@@ -130,3 +130,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+#Los puntos nominales serían V=60 m/s, gamma=0 rad, u=7.2 m/s², así cuando se realiza el calculo tenemos un punto de equilibrio igual al empuje de 7.2 m/s².
+#La matriz A tiene autovalores con parte real negativa, lo que indica que el sistema es estable alrededor del punto de equilibrio. Los valores serian aproximadamente -9.81 y -0.0247. 
+#Los autovalores indican que el sistema tiene dos modos de respuesta: uno rápido asociado a la dinámica de velocidad y otro más lento relacionado con el ángulo de vuelo. tipico del modo fugoide en dinamica de vuelo.
+#El modo fugoide depende del arrastre y el empuje, y su estabilidad es crucial para el control del vehículo aéreo.
+#que un modo sea rapido implica que hay que disminuir el paso de tiempo en la simulacion para capturar bien la dinamica del sistema. 
+#Si cambiamos el arrastre k a un valor mayor, el sistema se vuelve mas estable, ya que el arrastre adicional ayuda a disipar la energia del sistema mas rapidamente. En cambio si k es menor el sistema puede volverse inestable, 
+# ya que hay menos resistencia al movimiento, lo que puede llevar a oscilaciones crecientes en la velocidad y el angulo de vuelo.
+#un modelo lineal sirve cerca del nominal porque el margen de error es minimo, pero a medida que nos alejamos del punto de equilibrio, las no linealidades del sistema se vuelven mas significativas y el modelo lineal pierde precision.

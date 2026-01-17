@@ -24,7 +24,7 @@ def main():
 
     # --- Mallado para el campo vectorial (elige rangos "bonitos" para la diapositiva)
     v_min, v_max = 20.0, 100.0
-    gam_min, gam_max = -0.6, 0.6  # rad
+    gam_min, gam_max = 0, 0  # rad
 
     Nv, Ng = 23, 23
     V = np.linspace(v_min, v_max, Nv)
