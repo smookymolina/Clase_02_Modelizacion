@@ -1,5 +1,5 @@
 190 ALEXIS BARRAGAN ANCHONDO
-ACTIVIDAD CLASE 03 MÉTODOS NUMÉRICOS
+ACTIVIDAD CLASE 05 DISCRETIZACION
 
 Valores modificados:
 params={"g": 9.81, "k": 0.0020}.
@@ -14,4 +14,4 @@ Si un modo es rápido: ¿qué implica para el paso Delta t?
 Si el cohete tiene reacciones que pasan muy rápido, el paso de tiempo tiene que ser bien chiquito. Si el sistema es rápido y la Delta t es muy grande, el programa se salta partes y la gráfica va a salir con errores.
 
 ¿Por qué un modelo lineal sirve “cerca” del nominal?
-El modelo real es una curva toda complicada, pero si se le hace zoom a una parte pequeña, parece una línea recta. Mientras el cohete no se aleje mucho de su velocidad y ángulo normal (el punto nominal), esa línea recta nos dice la verdad. Pero en cuanto el cohete hace una maniobra brusca o cambia mucho de velocidad, la curva real se separa de la línea recta y el modelo lineal deja de servir.
+Mientras el cohete no se aleje mucho de su velocidad y ángulo normal, esa línea recta da el resultado correcto. Pero en cuanto el cohete hace una maniobra brusca o cambia mucho de velocidad, la curva real se separa de la línea recta y el modelo lineal deja de servir. En pocas palabras, sirve para centrarse mejor en el resultado correcto.
