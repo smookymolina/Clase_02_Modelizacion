@@ -1,0 +1,27 @@
+190 ALEXIS BARRAGAN ANCHONDO
+ACTIVIDAD CLASE 04 ESTABILIDAD
+
+El conjunto de scripts simulan la caída de un objeto con arrastre, 
+calcula el tiempo de asentamiento y el sobretiro y encuentran el punto
+exacto donde el sistema se queda quieto por lo que analizan si es estable.
+
+Modificiaciones Script 1 (caida_drag_equilibrio)
+dt = 0.02 para ver como el error numérico hace que la curva se vea menos precisa.
+k = 0.02 para ver como cambia la velocidad terminal.
+
+Script 2 (respuesta_libre_forzada_metricas)
+zeta = 0.25 para un sobretiro bajo o si el sistema ya no oscila .
+wn = 3.0 para cambiar que tan rapido es el sistema.
+
+¿Cuál es la constante de tiempo tau?
+Es el tiempo que le toma al objeto alcanzar más de la mitad de su velocidad
+final. Si el aire es muy denso, el sistema reacciona más rápido y tau es
+más pequeño.
+
+¿En cuánto tiempo llega al 95% del estacionario?
+Ts (±5%) es la respuesta cuyo momento es en el que el sistema ya dejó de
+oscilar locamente y se quedó cerca del valor final.
+
+¿Qué pasa con el Delta t grande?
+La altura podría dar valores negativos o la velocidad saltar
+de forma no natural. No habría precisión.
