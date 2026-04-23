@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def f_vgam(v, gam, u_thrust, g=9.81, k=0.0020, v_eps=1e-3):
     """
-    Dinámica del ejemplo v-gamma:
+    Dinámica del ejemplo v-gamma: ejemplo
       dv   = u - g sin(gamma) - k v|v|
       dgam = -(g/v) cos(gamma)   (con protección en v)
     """
