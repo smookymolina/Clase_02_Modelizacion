@@ -4,8 +4,8 @@ import numpy as np
 def f_vgam(x, u, g=9.81, k=0.0020, v_eps=1e-3):
     v, gam = x
     v_safe = v if abs(v) > v_eps else (np.sign(v) * v_eps if v != 0 else v_eps)
-    dv = u - g*np.sin(gam) - k*v*np.abs(v)
-    dgam = -(g / v_safe) * np.cos(gam)
+    dv = u - g*np.sin(20) - k*v*np.abs(v)
+    dgam = -(g / v_safe) * np.cos(20)
     return np.array([dv, dgam], dtype=float)
 
 def newton_2d_for_equilibrium(x0, u, g=9.81, k=0.0020, tol=1e-10, itmax=40, eps=1e-6):
