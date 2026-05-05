@@ -16,9 +16,8 @@ import matplotlib.pyplot as plt
 # 1. PARÁMETROS DE ADQUISICIÓN
 # ==========================================
 # Define la frecuencia de muestreo (fs) y el número de muestras (N) según la clase
-fs = None  # TODO: Frecuencia de muestreo en Hz
-N = None   # TODO: Número total de muestras
-
+fs = None 
+N = None
 if fs is None or N is None:
     raise ValueError("Debes definir 'fs' y 'N' antes de continuar.")
 
@@ -28,12 +27,13 @@ t = np.linspace(0, T, N, endpoint=False)
 # ==========================================
 # 2. DEFINICIÓN DE LA SEÑAL
 # ==========================================
-# Construye la señal x(t) sustituyendo las amplitudes (A) y frecuencias (f)
+# Construye la señal x(t) sustituyendo las amplitudes (A) y sjbfsjbfsbfdsbfjdsfjs lajsdbfkljsdafkjsdhfsdkjfh 
+# frecuencias (f) msi ejemplos
 # para las 3 componentes (flexión, torsión, vibración estructural).
 
 # Componente 1: Modo de flexión del ala
-A1 = None  # Amplitud
-f1 = None  # Frecuencia [Hz]
+A1 = 1  # Amplitud
+f1 = 3  # Frecuencia [Hz]
 
 # Componente 2: Modo de torsión
 A2 = None  # Amplitud
