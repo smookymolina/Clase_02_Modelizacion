@@ -16,8 +16,8 @@ import matplotlib.pyplot as plt
 # 1. PARÁMETROS DE ADQUISICIÓN
 # ==========================================
 # Define la frecuencia de muestreo (fs) y el número de muestras (N) según la clase
-fs = None  # TODO: Frecuencia de muestreo en Hz
-N = None   # TODO: Número total de muestras
+fs = 200  # TODO: Frecuencia de muestreo en Hz
+N = 512  # TODO: Número total de muestras
 
 if fs is None or N is None:
     raise ValueError("Debes definir 'fs' y 'N' antes de continuar.")
@@ -32,16 +32,16 @@ t = np.linspace(0, T, N, endpoint=False)
 # para las 3 componentes (flexión, torsión, vibración estructural).
 
 # Componente 1: Modo de flexión del ala
-A1 = None  # Amplitud
-f1 = None  # Frecuencia [Hz]
+A1 = 1.2  # Amplitud
+f1 = 8  # Frecuencia [Hz]
 
 # Componente 2: Modo de torsión
-A2 = None  # Amplitud
-f2 = None  # Frecuencia [Hz]
+A2 = 0.5  # Amplitud
+f2 = 22  # Frecuencia [Hz]
 
 # Componente 3: Vibración estructural alta
-A3 = None  # Amplitud
-f3 = None  # Frecuencia [Hz]
+A3 = 0.3  # Amplitud
+f3 = 35  # Frecuencia [Hz]
 
 if any(v is None for v in [A1, f1, A2, f2, A3, f3]):
     raise ValueError("Debes completar todas las amplitudes y frecuencias de la señal.")
