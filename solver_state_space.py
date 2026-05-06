@@ -13,7 +13,7 @@ Array = np.ndarray  # alias para legibilidad
 
 
 # ============================================================
-# 1) Estructura del modelo (la "ficha técnica")
+# 1) Estructura del modelo (la "ficha técnica")Luis Angel Islas
 # ============================================================
 @dataclass
 class Model:
